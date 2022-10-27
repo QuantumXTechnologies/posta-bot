@@ -22,7 +22,7 @@ responses:
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+
 
   utter_did_that_help:
   - text: "Did that help you?"
@@ -35,6 +35,23 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_posta:
+    - text: "Posta Tanzania is designated as National Public Postal operator, and other Business services. 
+      TPC business and service portfolio that are segmented into;- Mails & Parcel Logistics, Courier 
+      & Express, Financial & Agency, ICT application services, as well as design, install and rent 
+      private mail delivery boxes & bags, design, production and sale of philately products and other 
+      retail services which includes selling of Stationery equipment for Office and School use"
+
+  utter_postamlangoni:
+    - text: "Is the fastest, reliable and affordable intra-city/town courier service offered by Tanzania Posts Corporation. 
+      It is the cost effective and efficient way of delivering documents and packages to home Address via Postcode."
+
+  utter_postashoptz:
+    - text: "This is an electronic market where you can view items, if interested you can buy and pay through bank deposit, credit card and mobile lines. 
+        and within few days the product will be delivered at your location more info visit here https://www.postashoptz.post/"
+
+
 
 session_config:
   session_expiration_time: 60
