@@ -50,7 +50,15 @@ responses:
   utter_postashoptz:
     - text: "This is an electronic market where you can view items, if interested you can buy and pay through bank deposit, credit card and mobile lines. 
         and within few days the product will be delivered at your location more info visit here https://www.postashoptz.post/"
-
+      buttons:
+        - title: "I'd like to request an appointment"
+          payload: "/posta"
+        - title: "What payments method do you accept?"
+          payload: "/greet"
+        - title: "What services do you offer?"
+          payload: "/postamlangoni"
+        - title: "FAQ"
+          payload: "/postashoptz"
 
 
 session_config:
