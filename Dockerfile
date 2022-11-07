@@ -1,8 +1,8 @@
-# syntax=docker/dockerfile:1
-
-FROM python:3.8-slim-buster
+FROM python:3.7
+RUN python -m pip install rasa
 WORKDIR /app
-COPY requirements.txt requirements.txt
-RUN pip3 install -r requirements.txt
 COPY . .
-CMD [ "rasa",  "run" , "-m", "models", "--enable-api", "--cors", '"*"']
+RUN rasa train nlu
+USER 1001
+ENTRYPOINT ["rasa"]
+CMD ["run" , "--enable-api", "--port", "8080"]
