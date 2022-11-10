@@ -14,7 +14,7 @@ intents:
   - changamoto
   - huduma
   - mengineyo
-  - Malipo
+  - malipo
 
 responses:
   utter_greet:
@@ -27,7 +27,7 @@ responses:
     - title: "Kufahamu Huduma zetu"
       payload: "/huduma"
     - title: "Kufanya Malipo"
-      payload: "/Malipo"
+      payload: "/malipo"
     - title: "Mengineyo"
       payload: "/mengineyo"
 
