@@ -107,3 +107,19 @@ nlu:
     - what is postamlangoni?
     - postamlangoni
     
+- intent: mengineyo
+  examples: |
+    - mengineyo
+    - jambo lingine
+    - nahitaji jingine
+
+- intent: malipo
+  examples: |
+    - malipo
+    - kufanya malipo
+    - kulipia
+
+- intent: changamoto
+  examples: |
+    - changamoto
+    - nina changamoto
