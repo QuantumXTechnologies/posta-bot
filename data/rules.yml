@@ -26,3 +26,18 @@ rules:
   steps:
   - intent: postamlangoni
   - action: utter_postamlangoni
+
+- rule: changamoto
+  steps:
+  - intent: changamoto
+  - action: utter_changamoto
+
+- rule: malipo
+  steps:
+  - intent: malipo
+  - action: utter_malipo
+
+- rule: mengineyo
+  steps:
+  - intent: mengineyo
+  - action: utter_mengineyo

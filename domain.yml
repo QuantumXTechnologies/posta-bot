@@ -11,14 +11,25 @@ intents:
   - posta
   - postashoptz
   - postamlangoni
+  - changamoto
+  - huduma
+  - mengineyo
+  - malipo
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
-  - text: "Hey! What should i help you?"
-  - text: "Hello! I'm here to help support you?"
-  - text: "Welcome! How are you?"
-  - text: "Welcome! Welcome. I'm here for you"
+  - text: "Habari, Mimi ni mfumo wa akili bandia kutoka posta Tanzania. 
+    Nipo hapa kukusaidia kupata huduma za posta na kukupa msaada kwa changamoto yoyote utakayoipata.   
+    Je unaripoti jambo gani leo?"
+    buttons:
+    - title: "Ripoti Changamoto"
+      payload: "/changamoto"
+    - title: "Kufahamu Huduma zetu"
+      payload: "/huduma"
+    - title: "Kufanya Malipo"
+      payload: "/malipo"
+    - title: "Mengineyo"
+      payload: "/mengineyo"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -51,14 +62,27 @@ responses:
     - text: "This is an electronic market where you can view items, if interested you can buy and pay through bank deposit, credit card and mobile lines. 
         and within few days the product will be delivered at your location more info visit here https://www.postashoptz.post/"
       buttons:
-        - title: "I'd like to request an appointment"
-          payload: "/posta"
-        - title: "What payments method do you accept?"
-          payload: "/greet"
-        - title: "What services do you offer?"
-          payload: "/postamlangoni"
-        - title: "FAQ"
-          payload: "/postashoptz"
+      - title: "I'd like to request an appointment"
+        payload: "/posta"
+      - title: "What payments method do you accept?"
+        payload: "/greet"
+      - title: "What services do you offer?"
+        payload: "/postamlangoni"
+      - title: "FAQ"
+        payload: "/postashoptz"
+
+  utter_changamoto:
+  - text: "Tafadhari Tunaomba namza zako za simu, email au namba yako ya Huduma.
+            Ninashughulikia changamoto yako , Nitawasiliana nawe hivi punde."
+
+
+  utter_malipo:
+  - text: "Tafadhari Tunaomba namza zako za simu, email au namba yako ya Huduma.
+            Ninashughulikia hitaji lako , Subiri kidogo."
+
+  utter_mengineyo:
+  - text: "Tafadhari ninaomba uandike ujumbe wa kuripoti hitaji lako 
+          Nitarejea kwako hivi punde."
 
 
 session_config:
