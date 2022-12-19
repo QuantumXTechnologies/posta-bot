@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: mgasalucas/postabot:latest
+          tags: mgasalucas/postabot2:latest
